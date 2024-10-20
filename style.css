@@ -317,7 +317,11 @@ section {
     background-color: var(--light-white);
     cursor: pointer;
 }
-
+.contact .row .image #cntbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .contact .row form .radio input:checked {
     background-color: var(--green);
     border-radius: 5rem;
